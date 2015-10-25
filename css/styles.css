@@ -1,0 +1,90 @@
+
+/*******************
+	General styling
+*******************/
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+p {
+	padding: 1em 0;
+}
+
+.wrapper {
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 1em;
+	
+}
+
+.question {
+	border-radius: 10px 10px 0 0;
+	border-top: 2em solid #333;
+	color: #fff;
+	font-weight: bold;
+	background: #e92;
+	padding: 1em 0;
+}
+
+.question p {
+
+}
+
+.answer {
+	color: #eee;
+	background: #333;
+	padding: 1em 5em;
+}
+
+span {
+	margin-left: 5em;
+}
+
+#answer {
+	width: 4em;
+	border: none;
+	margin: .5em;
+	background: #333;
+	border-bottom: 2px solid red;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	outline: none;
+}
+
+.submitAnswer {
+	background: #333;
+	padding: 4em;
+}
+
+a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	background: #2b2;
+	padding: 1em 3em;
+	border-radius: 5px;
+}
+
+a:hover {
+	background: #191;
+}
+
+.wellDone {
+	background: #393;
+	width: 100%;
+	padding: 10em 0;
+	position: absolute;
+	height: 100px;
+	top: 0;
+	text-align: center;
+	color: #eee;
+	font-weight: bold;
+	font-size: 2em;
+}
